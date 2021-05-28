@@ -1,0 +1,304 @@
+.home {
+  .home__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 4px 114px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    z-index: 100;
+    border-bottom: 1px solid #e8e8e8;
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2.5rem 6rem;
+    }
+    &-logo-cont {
+      display: flex;
+      align-items: center;
+      &-img-cont {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 1.5rem;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      &-name {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+    }
+    &-info {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      &-bd {
+        margin-left: 3rem;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }
+  &__hero {
+    position: relative;
+    height: 100vh;
+    background: rgba(255, 122, 0, 0.04);
+    &-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 95%;
+      max-width: 70rem;
+    }
+  }
+  &__info {
+    padding: 12rem 0;
+    background: #fff;
+    &-content {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      grid-gap: 3rem;
+      &-sub {
+        padding: 0 0 0 0;
+      }
+      &-main {
+        &-desc {
+          font-size: 2.2rem;
+          line-height: 2;
+          font-weight: 700;
+          &-hl {
+            color: #ff7a00;
+            display: inline;
+            margin-left: 5px;
+          }
+        }
+        &-services {
+          margin-top: 8rem;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 2.5rem;
+          &-item {
+            background: #fff;
+            padding: 4rem 3rem;
+            box-shadow: 0px 4px 102px rgba(0, 0, 0, 0.04);
+            border-radius: 1rem;
+            border: 1px solid #e8e8e8;
+            &-title {
+              font-size: 2.5rem;
+              color: #2f2f2f;
+              font-weight: 700;
+              margin-bottom: 2rem;
+            }
+            &-desc {
+              font-size: 1.5rem;
+              line-height: 1.7;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__skills {
+    padding: 5rem 0 12rem 0;
+    background: #fff;
+    &-content {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      grid-gap: 3rem;
+      &-sub {
+        padding: 0 0 0 0;
+      }
+    }
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 2rem 1.5rem;
+      &-item {
+        padding: 1.5rem 7px;
+        text-align: center;
+        background: #f6f6f6;
+        font-weight: bold;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        border-radius: 100px;
+        box-shadow: 0px 4px 114px rgba(0, 0, 0, 0.04);
+      }
+    }
+  }
+  &__projects {
+    padding: 5rem 0 12rem 0;
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5rem;
+      margin-top: 7rem;
+      &-item {
+        padding: 1rem 1rem 3rem 1rem;
+        border-radius: 1rem;
+        box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.1);
+        background: #fff;
+        border-bottom: 1px solid #e8e8e8;
+        &-img-cont {
+          border-radius: 1rem;
+          overflow: hidden;
+          margin-bottom: 3rem;
+          img {
+            width: 100%;
+          }
+        }
+        &-title {
+          font-size: 2.2rem;
+          margin-bottom: 1.5rem;
+          padding: 0 1rem;
+        }
+        &-desc {
+          font-size: 1.8rem;
+          line-height: 1.6;
+          padding: 0 1rem;
+          color: #333;
+        }
+      }
+    }
+  }
+  &__brands {
+    padding: 5rem 0 12rem 0;
+    &-content {
+      max-width: 70rem;
+      margin: auto;
+      text-align: center;
+    }
+    &-list {
+      margin-top: 8rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 5rem;
+      align-items: center;
+      &-item {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__contact {
+    padding: 5rem 0 12rem 0;
+    &-content {
+      max-width: 70rem;
+      margin: auto;
+    }
+  }
+}
+
+.info-cta {
+  text-align: center;
+  &__title {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    color: #232323;
+  }
+  &__title-sm {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: #232323;
+    line-height: 1.2;
+  }
+  &__desc {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin-bottom: 4rem;
+  }
+  &__form {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 1px 86px rgba(41, 41, 41, 0.04);
+    border-radius: 100px;
+    padding: 0rem;
+    padding: 8px;
+    overflow: hidden;
+    &-border {
+      border: 1px solid #e5e5e5;
+    }
+    &-input {
+      padding: 2rem 3rem;
+      border: none;
+      width: 75%;
+      font-size: 1.8rem;
+      color: grey;
+
+      /* Code for Modern Browsers */
+      &::placeholder {
+        color: #9c9c9c;
+        font-size: 1.8rem;
+      }
+
+      /* Code for WebKit, Blink, Edge */
+      &::-webkit-input-placeholder {
+        color: #9c9c9c;
+        font-size: 1.8rem;
+      }
+
+      /* Code for Internet Explorer 10-11 */
+      &:-ms-input-placeholder {
+        color: #9c9c9c;
+        font-size: 1.8rem;
+      }
+
+      /* Code for Microsoft Edge */
+      &::-ms-input-placeholder {
+        color: #9c9c9c;
+        font-size: 1.8rem;
+      }
+
+      /* Code for Mozilla Firefox 4 to 18 */
+      &:-moz-placeholder {
+        opacity: 1;
+        color: #9c9c9c;
+        font-size: 1.8rem;
+      }
+
+      /* Code for Mozilla Firefox 19+ */
+      &::-moz-placeholder {
+        opacity: 1;
+        color: #9c9c9c;
+        font-size: 1.8rem;
+      }
+    }
+    &-btn {
+      width: 25%;
+      border-radius: 100px;
+      font-size: 1.8rem;
+      background: #ff7a00;
+      color: #fff;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.section-heading-prim {
+  &-main {
+    font-size: 5rem;
+    display: block;
+    font-weight: bold;
+  }
+  &-sub {
+    font-size: 2.02rem;
+    font-weight: 500;
+  }
+}
+
+.section-heading-sec {
+  &-main {
+    font-size: 3rem;
+    display: block;
+    font-weight: bold;
+  }
+}
