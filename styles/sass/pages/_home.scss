@@ -13,8 +13,8 @@
       justify-content: space-between;
       align-items: center;
       padding: 2.5rem 6rem;
-      @include respond(tab-port) {   
-          padding: 2rem;
+      @include respond(tab-port) {
+        padding: 2rem;
       }
     }
     &-logo-cont {
@@ -40,8 +40,8 @@
     &-info {
       font-size: 1.5rem;
       text-transform: uppercase;
-      @include respond(phone) {  
-          display: none;
+      @include respond(phone) {
+        display: none;
       }
       &-bd {
         margin-left: 3rem;
@@ -61,16 +61,16 @@
       transform: translate(-50%, -50%);
       width: 90%;
       max-width: 70rem;
-      @include respond(phone) {  
-       top: 55%;   
+      @include respond(phone) {
+        top: 55%;
       }
     }
   }
   &__info {
     padding: 12rem 0;
     background: #fff;
-    @include respond(phone) {   
-        padding: 6rem 0;
+    @include respond(phone) {
+      padding: 6rem 0;
     }
     &-content {
       display: grid;
@@ -101,8 +101,8 @@
           @include respond(tab-port) {
             margin-top: 5rem;
           }
-          @include respond(phone) {   
-              grid-template-columns: 1fr;
+          @include respond(phone) {
+            grid-template-columns: 1fr;
           }
           &-item {
             background: #fff;
@@ -128,8 +128,8 @@
   &__skills {
     padding: 5rem 0 12rem 0;
     background: #fff;
-    @include respond(phone) {  
-        padding: 3rem 0 6rem 0;
+    @include respond(phone) {
+      padding: 3rem 0 6rem 0;
     }
     &-content {
       display: grid;
@@ -138,8 +138,8 @@
       @include respond(tab-port) {
         grid-template-columns: 1fr;
       }
-      @include respond(phone) {  
-          gap: 5rem;
+      @include respond(phone) {
+        gap: 5rem;
       }
       &-sub {
         padding: 0 0 0 0;
@@ -165,21 +165,23 @@
         letter-spacing: 1px;
         @include respond(tab-port) {
           padding: 1.5rem 4rem;
-        
+
           margin-right: 2rem;
           margin-bottom: 2rem;
         }
-        @include respond(phone) {   
-            padding: 1rem  2rem ;
-            font-size: 1.3rem;
+        @include respond(phone) {
+          padding: 1rem 2rem;
+          font-size: 1.3rem;
+          margin-right: 1rem;
+          margin-bottom: 1rem;
         }
       }
     }
   }
   &__projects {
     padding: 5rem 0 12rem 0;
-    @include respond(phone) {  
-        padding: 4rem 0 6rem 0;
+    @include respond(phone) {
+      padding: 4rem 0 6rem 0;
     }
     &-list {
       display: grid;
@@ -193,8 +195,8 @@
         margin-top: 5rem;
         grid-gap: 4rem;
       }
-      @include respond(phone) {   
-          grid-template-columns: 1fr;
+      @include respond(phone) {
+        grid-template-columns: 1fr;
       }
       &-item {
         padding: 1rem 1rem 3rem 1rem;
@@ -226,8 +228,8 @@
   }
   &__brands {
     padding: 5rem 0 12rem 0;
-    @include respond(phone) {   
-        padding: 4rem 0 6rem 0;
+    @include respond(phone) {
+      padding: 4rem 0 6rem 0;
     }
     &-content {
       max-width: 70rem;
@@ -240,9 +242,9 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 5rem;
       align-items: center;
-      @include respond(phone) {   
-          margin-top: 4rem;
-          grid-gap: 2rem;
+      @include respond(phone) {
+        margin-top: 4rem;
+        grid-gap: 2rem;
       }
       &-item {
         img {
@@ -253,8 +255,8 @@
   }
   &__contact {
     padding: 5rem 0 12rem 0;
-    @include respond(phone) {   
-        padding: 5rem 0 8rem 0;
+    @include respond(phone) {
+      padding: 5rem 0 8rem 0;
     }
     &-content {
       max-width: 70rem;
@@ -269,8 +271,8 @@
     font-size: 6rem;
     margin-bottom: 1rem;
     color: #232323;
-    @include respond(phone) {  
-        font-size: 4.5rem;
+    @include respond(phone) {
+      font-size: 4.5rem;
     }
   }
   &__title-sm {
@@ -278,16 +280,16 @@
     margin-bottom: 3rem;
     color: #232323;
     line-height: 1.2;
-    @include respond(phone) {  
-        font-size: 4rem;
+    @include respond(phone) {
+      font-size: 4rem;
     }
   }
   &__desc {
     font-size: 1.8rem;
     line-height: 1.7;
     margin-bottom: 4rem;
-    @include respond(phone) {   
-        font-size: 1.6rem;
+    @include respond(phone) {
+      font-size: 1.6rem;
     }
   }
   &__form {
@@ -300,8 +302,8 @@
     padding: 0rem;
     padding: 8px;
     overflow: hidden;
-    @include respond(phone) {  
-        width: 100%;
+    @include respond(phone) {
+      width: 100%;
     }
     &-border {
       border: 1px solid #e5e5e5;
@@ -312,9 +314,9 @@
       width: 75%;
       font-size: 1.8rem;
       color: grey;
-      @include respond(phone) {   
-          width: 65%;
-          padding: 1.7rem 2rem;
+      @include respond(phone) {
+        width: 65%;
+        padding: 1.7rem 2rem;
       }
 
       /* Code for Modern Browsers */
@@ -363,8 +365,8 @@
       color: #fff;
       font-weight: bold;
       letter-spacing: 1px;
-      @include respond(phone) {  
-          width: 35%;
+      @include respond(phone) {
+        width: 35%;
       }
     }
   }
@@ -403,8 +405,8 @@
   }
 
   &-content-user {
-    @include respond(tab-port) {  
-        margin-bottom: 2rem;
+    @include respond(tab-port) {
+      margin-bottom: 2rem;
     }
   }
   &-content-user-main {
@@ -445,8 +447,8 @@
     }
   }
   &-content-nav-cont {
-    @include respond(tab-port) { 
-        margin-bottom: 2rem;
+    @include respond(tab-port) {
+      margin-bottom: 2rem;
     }
   }
   &-content-nav {
