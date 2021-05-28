@@ -227,13 +227,13 @@ export default function Home() {
             </h2>
             <div className="home__brands-list">
               <div className="home__brands-list-item">
-                <img src="/png/fb.png" alt="facebook"/>
+                <img src="/png/fb.png" alt="facebook" />
               </div>
               <div className="home__brands-list-item">
-                <img src="/png/insta.png" alt="facebook"/>
+                <img src="/png/insta.png" alt="facebook" />
               </div>
               <div className="home__brands-list-item">
-                <img src="/png/spotify.png" alt="facebook"/>
+                <img src="/png/spotify.png" alt="facebook" />
               </div>
             </div>
           </div>
@@ -262,6 +262,65 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="footer__main-footer">
+        <div className="main-container">
+          <div className="footer__main-footer-content">
+            <div className="footer__main-footer-content-user">
+              <div className="footer__main-footer-content-user-main">
+                <span className="footer__main-footer-content-user-main-img-cont">
+                  <img
+                    src="https://d33wubrfki0l68.cloudfront.net/f4f396d63bd5e4abc40e7473d10f6537ca7effce/2db05/assets/client-4.jpg"
+                    alt="User"
+                  />
+                </span>
+                <span className="footer__main-footer-content-user-main-name">
+                  James Bitch
+                </span>
+              </div>
+              <div className="footer__main-footer-content-user-info">
+                <span className="footer__main-footer-content-user-info-item">
+                  CALL ME (+706) 898-0751
+                </span>
+                <span className="footer__main-footer-content-user-info-item-hl">
+                  HAYLEN.DESIGN@GMAIL.COM
+                </span>
+              </div>
+            </div>
+            <div className="footer__main-footer-content-nav-cont">
+              <ul className="footer__main-footer-content-nav">
+                <li className="footer__main-footer-content-nav-title">
+                  Browse
+                </li>
+                <div className="footer__main-footer-content-nav-links-cont">
+                  <li className="footer__main-footer-content-nav-link">
+                    <a href="#">About</a>
+                  </li>
+                  <li className="footer__main-footer-content-nav-link">
+                    <a href="#">Skills</a>
+                  </li>
+                  <li className="footer__main-footer-content-nav-link">
+                    <a href="#">Projects</a>
+                  </li>
+                  <li className="footer__main-footer-content-nav-link">
+                    <a href="#">Partners</a>
+                  </li>
+                  <li className="footer__main-footer-content-nav-link">
+                    <a href="#">Contact</a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+            <div className="footer__main-footer-content-final-msg">
+              <h5 className="footer__main-footer-content-final-msg-title">
+                Thanks
+              </h5>
+              <p className="footer__main-footer-content-final-msg-desc">
+                If you have any questions or inquiries, feel free to contact me
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
